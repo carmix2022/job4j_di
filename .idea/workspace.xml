@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b20a7f81-0f30-4ab4-8f9d-ac91d73bf31d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/BeanFactoryDI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/ContextByJavaBasedConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/ContextByListOfClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/model/StartUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/di/model/Store.java" afterDir="false" />
+    <list default="true" id="b20a7f81-0f30-4ab4-8f9d-ac91d73bf31d" name="Changes" comment="DI, IoC, Beans, BeanFactory, ApplicationContext [#505070 #441178]">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/beanpostprocessors/ProductBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -54,7 +49,7 @@
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BeanFactoryDI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.di.BeanFactoryDI" />
       <module name="job4j_di" />
@@ -68,8 +63,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lifecycle.Main" />
+      <module name="job4j_di" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.BeanFactoryDI" />
       </list>
     </recent_temporary>
@@ -82,8 +91,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693477133810</updated>
-      <workItem from="1693477135903" duration="2069000" />
+      <workItem from="1693477135903" duration="11809000" />
     </task>
+    <task id="LOCAL-00001" summary="DI, IoC, Beans, BeanFactory, ApplicationContext [#505070 #441178]">
+      <created>1693491836772</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693491836773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +116,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DI, IoC, Beans, BeanFactory, ApplicationContext [#505070 #441178]" />
+    <option name="LAST_COMMIT_MESSAGE" value="DI, IoC, Beans, BeanFactory, ApplicationContext [#505070 #441178]" />
   </component>
 </project>
