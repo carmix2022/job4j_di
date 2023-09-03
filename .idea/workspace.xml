@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b20a7f81-0f30-4ab4-8f9d-ac91d73bf31d" name="Changes" comment="DI, IoC, Beans, BeanFactory, ApplicationContext [#505070 #441178]">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/beanpostprocessors/ProductBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lifecycle/model/Product.java" afterDir="false" />
+    <list default="true" id="b20a7f81-0f30-4ab4-8f9d-ac91d73bf31d" name="Changes" comment="Жизненный цикл Spring Bean [#505071 #441261]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +38,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/projects/job4j_di",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "dc979aa971baa67a766d066d5811d5c1"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Main">
@@ -91,7 +88,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693477133810</updated>
-      <workItem from="1693477135903" duration="11809000" />
+      <workItem from="1693477135903" duration="14915000" />
+      <workItem from="1693733228037" duration="1124000" />
     </task>
     <task id="LOCAL-00001" summary="DI, IoC, Beans, BeanFactory, ApplicationContext [#505070 #441178]">
       <created>1693491836772</created>
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693491836773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Жизненный цикл Spring Bean [#505071 #441261]">
+      <created>1693592222627</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693592222627</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DI, IoC, Beans, BeanFactory, ApplicationContext [#505070 #441178]" />
-    <option name="LAST_COMMIT_MESSAGE" value="DI, IoC, Beans, BeanFactory, ApplicationContext [#505070 #441178]" />
+    <MESSAGE value="Жизненный цикл Spring Bean [#505071 #441261]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Жизненный цикл Spring Bean [#505071 #441261]" />
   </component>
 </project>
