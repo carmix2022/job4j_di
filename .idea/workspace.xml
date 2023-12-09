@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b20a7f81-0f30-4ab4-8f9d-ac91d73bf31d" name="Changes" comment="Концепция AOP [#505076 #442687]" />
+    <list default="true" id="b20a7f81-0f30-4ab4-8f9d-ac91d73bf31d" name="Changes" comment="_">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +39,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/projects/job4j_dreamjob",
+    "last_opened_file_path": "C:/projects/job4j_di",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -118,6 +120,7 @@
       <workItem from="1693477135903" duration="14915000" />
       <workItem from="1693733228037" duration="9247000" />
       <workItem from="1693919600520" duration="1457000" />
+      <workItem from="1702133758173" duration="428000" />
     </task>
     <task id="LOCAL-00001" summary="DI, IoC, Beans, BeanFactory, ApplicationContext [#505070 #441178]">
       <created>1693491836772</created>
@@ -161,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693920463876</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="_">
+      <created>1702133841630</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702133841631</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +193,7 @@
     <MESSAGE value="Жизненный цикл Spring Bean [#505071 #441261]" />
     <MESSAGE value="4. Конфигурация контейнера [#505072 #442086]" />
     <MESSAGE value="Концепция AOP [#505076 #442687]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Концепция AOP [#505076 #442687]" />
+    <MESSAGE value="_" />
+    <option name="LAST_COMMIT_MESSAGE" value="_" />
   </component>
 </project>
