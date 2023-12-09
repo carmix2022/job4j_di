@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b20a7f81-0f30-4ab4-8f9d-ac91d73bf31d" name="Changes" comment="4. Конфигурация контейнера [#505072 #442086]">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/aop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/aop/aspects/BeforeAndAfterLoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/aop/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/aop/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/aop/service/ProcessComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b20a7f81-0f30-4ab4-8f9d-ac91d73bf31d" name="Changes" comment="Концепция AOP [#505076 #442687]" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,21 +30,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/projects/job4j_di&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;dc979aa971baa67a766d066d5811d5c1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/projects/job4j_dreamjob",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "dc979aa971baa67a766d066d5811d5c1"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.ru.job4j.aop.Main">
     <configuration name="BeanFactoryDI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.di.BeanFactoryDI" />
@@ -126,7 +117,7 @@
       <updated>1693477133810</updated>
       <workItem from="1693477135903" duration="14915000" />
       <workItem from="1693733228037" duration="9247000" />
-      <workItem from="1693919600520" duration="600000" />
+      <workItem from="1693919600520" duration="1457000" />
     </task>
     <task id="LOCAL-00001" summary="DI, IoC, Beans, BeanFactory, ApplicationContext [#505070 #441178]">
       <created>1693491836772</created>
@@ -163,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693919695659</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Концепция AOP [#505076 #442687]">
+      <created>1693920463876</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693920463876</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +182,7 @@
     <MESSAGE value="DI, IoC, Beans, BeanFactory, ApplicationContext [#505070 #441178]" />
     <MESSAGE value="Жизненный цикл Spring Bean [#505071 #441261]" />
     <MESSAGE value="4. Конфигурация контейнера [#505072 #442086]" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. Конфигурация контейнера [#505072 #442086]" />
+    <MESSAGE value="Концепция AOP [#505076 #442687]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Концепция AOP [#505076 #442687]" />
   </component>
 </project>
