@@ -1,5 +1,8 @@
 package ru.job4j.di2;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class StartUI {
     private Store store;
     private ConsoleInput consoleInput;
